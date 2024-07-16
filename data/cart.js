@@ -1,4 +1,3 @@
-
 export let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
 function saveToStorage() {
@@ -36,6 +35,15 @@ export function removeFromCart(productId) {
     cart = newCart;
     saveToStorage();
     console.log(cart);
+}
+
+export function calculateCartQuantity() {
+
+    let cartQuantity = 0;
+    cart.forEach((cartItem) => {
+        cartQuantity += cartItem.quantity;
+    });
+    return cartQuantity;
 }
 
 
