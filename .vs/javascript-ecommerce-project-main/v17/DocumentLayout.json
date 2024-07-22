@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\scripts\\amazon.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\amazon.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\scripts\\checkout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\checkout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -23,8 +19,20 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:amazon.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\data\\deliveryOptions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\deliveryOptions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\data\\products.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\products.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\styles\\pages\\checkout\\checkout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles\\pages\\checkout\\checkout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\scripts\\amazon.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\amazon.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "amazon.js",
               "DocumentMoniker": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\scripts\\amazon.js",
               "RelativeDocumentMoniker": "scripts\\amazon.js",
               "ToolTip": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\scripts\\amazon.js",
               "RelativeToolTip": "scripts\\amazon.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAWAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAE0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-07-12T13:08:12.821Z",
               "IsPinned": true,
@@ -52,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "checkout.js",
               "DocumentMoniker": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\scripts\\checkout.js",
               "RelativeDocumentMoniker": "scripts\\checkout.js",
               "ToolTip": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\scripts\\checkout.js",
               "RelativeToolTip": "scripts\\checkout.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAF4AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-07-13T17:01:12.288Z",
               "IsPinned": true,
@@ -78,26 +86,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "deliveryOptions.js",
+              "DocumentMoniker": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\data\\deliveryOptions.js",
+              "RelativeDocumentMoniker": "data\\deliveryOptions.js",
+              "ToolTip": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\data\\deliveryOptions.js",
+              "RelativeToolTip": "data\\deliveryOptions.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-20T17:19:38.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "checkout.css",
+              "DocumentMoniker": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\styles\\pages\\checkout\\checkout.css",
+              "RelativeDocumentMoniker": "styles\\pages\\checkout\\checkout.css",
+              "ToolTip": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\styles\\pages\\checkout\\checkout.css",
+              "RelativeToolTip": "styles\\pages\\checkout\\checkout.css",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAAFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-17T16:02:47.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "checkout.html",
               "DocumentMoniker": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\checkout.html",
               "RelativeDocumentMoniker": "checkout.html",
               "ToolTip": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\checkout.html",
               "RelativeToolTip": "checkout.html",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAUAAAASAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAACwAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-07-13T17:01:50.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "amazon.html",
               "DocumentMoniker": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\amazon.html",
               "RelativeDocumentMoniker": "amazon.html",
               "ToolTip": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\amazon.html",
               "RelativeToolTip": "amazon.html",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADEAAAAQAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-07-12T17:23:25.865Z",
               "EditorCaption": ""
@@ -110,20 +144,20 @@
               "RelativeDocumentMoniker": "data\\products.js",
               "ToolTip": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\data\\products.js",
               "RelativeToolTip": "data\\products.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-07-12T17:19:58.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "cart.js",
               "DocumentMoniker": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\data\\cart.js",
               "RelativeDocumentMoniker": "data\\cart.js",
               "ToolTip": "D:\\Documents\\Rahil\\Web Development\\javascript-Ekart-project\\javascript-ecommerce-project-main\\data\\cart.js",
               "RelativeToolTip": "data\\cart.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAWAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-07-12T17:19:44.927Z",
               "EditorCaption": ""

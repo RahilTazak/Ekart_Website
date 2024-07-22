@@ -3,11 +3,10 @@
     "",
     "\\data",
     "\\scripts",
-    "\\scripts\\Utils",
     "\\styles",
     "\\styles\\pages",
     "\\styles\\pages\\checkout"
   ],
-  "SelectedNode": "\\scripts\\Utils",
+  "SelectedNode": "\\data\\deliveryOptions.js",
   "PreviewInSolutionExplorer": false
 }
