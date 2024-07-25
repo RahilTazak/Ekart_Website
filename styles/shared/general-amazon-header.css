@@ -13,6 +13,7 @@
   left: 0;
   right: 0;
   height: 60px;
+  z-index: 10;
 }
 
 .amazon-header-left-section {
@@ -97,7 +98,7 @@
 }
 
 .amazon-header-right-section {
-  width: 180px;
+  width: 280px;
   flex-shrink: 0;
   display: flex;
   justify-content: end;

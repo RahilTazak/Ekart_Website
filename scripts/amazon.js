@@ -58,17 +58,17 @@ products.forEach((product) => {
 
     productsHTML += html;
 });
-console.log(productsHTML);
+
 document.querySelector('.js-products-grid').innerHTML = productsHTML;
 
+updateCartQty();
 
-function updateCartQty () {
+function updateCartQty() {
     const cartQuantity = calculateCartQuantity() || '';
     document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
     localStorage.setItem('cartQuantity', cartQuantity);
 }
 
-updateCartQty();
 
 document.querySelectorAll('.js-add-to-cart-button').forEach((button) => {
     button.addEventListener('click', () => {

@@ -2,11 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\data",
+    "\\Exercises",
     "\\scripts",
+    "\\scripts\\checkout",
     "\\styles",
     "\\styles\\pages",
     "\\styles\\pages\\checkout"
   ],
-  "SelectedNode": "\\data\\deliveryOptions.js",
+  "SelectedNode": "\\Exercises\\day.html",
   "PreviewInSolutionExplorer": false
 }
