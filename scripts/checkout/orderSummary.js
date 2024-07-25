@@ -1,7 +1,7 @@
 import { cart, removeFromCart, calculateCartQuantity, updateQuantity, updateDeliveryOption } from '../../data/cart.js';
 import { products, getProduct } from '../../data/products.js';
 import { formatCurrency } from '../utils/money.js';
-import { deliveryOptions, getDeliveryOption } from '../../data/deliveryOptions.js';
+import { deliveryOptions, getDeliveryOption, calculateDeliveryDays, isWeekend } from '../../data/deliveryOptions.js';
 import { renderPaymentSummary } from './paymentSummary.js';
 import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
 
@@ -18,9 +18,7 @@ export function renderOrderSummary() {
 
         const deliveryOption = getDeliveryOption(deliveryOptionId);
 
-        const today = dayjs();
-        const deliveryDate = today.add(deliveryOption.deliveryDays, 'days');
-        const dateString = deliveryDate.format('dddd, MMMM D');
+        const dateString = calculateDeliveryDays(deliveryOption);
 
         cartSummaryHTML +=
             `<div class="cart-item-container js-cart-item-container-${matchingProduct.id}">
@@ -51,7 +49,9 @@ export function renderOrderSummary() {
                           <input class = "input-quantity js-input-quantity js-input-quantity-${matchingProduct.id}"
                                 data-product-id = '${matchingProduct.id}'>
                           <span class = "save-quantity-link link-primary js-save-quantity-link"
-                                data-product-id = '${matchingProduct.id}'>Save</span>
+                                data-product-id = '${matchingProduct.id}'>
+                                Save
+                                </span>
                           <span class="delete-quantity-link link-primary js-delete-link"
                             data-product-id = "${matchingProduct.id}">
                             Delete
@@ -72,9 +72,7 @@ export function renderOrderSummary() {
 
         let html = '';
         deliveryOptions.forEach((option) => {
-            const today = dayjs();
-            const deliveryDate = today.add(option.deliveryDays, 'days');
-            const dateString = deliveryDate.format('dddd, MMMM D');
+            const dateString = calculateDeliveryDays(option);
             const priceString = option.priceCents === 0 ? 'Free' : `$${formatCurrency(option.priceCents)} -`;
             const isChecked = option.id === cartItem.deliveryOptionId;
             html += `
@@ -171,7 +169,6 @@ export function renderOrderSummary() {
         element.addEventListener('click', () => {
             const { productId, deliveryOptionId } = element.dataset;
             updateDeliveryOption(productId, deliveryOptionId);
-            //changeDeliveryDate();
             renderOrderSummary();
             renderPaymentSummary();
 
