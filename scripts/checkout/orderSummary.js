@@ -5,6 +5,8 @@ import { deliveryOptions, getDeliveryOption, calculateDeliveryDays, isWeekend } 
 import { renderPaymentSummary } from './paymentSummary.js';
 import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
 
+
+export let cartQuantity;
 export function renderOrderSummary() {
 
     let cartSummaryHTML = '';
@@ -36,7 +38,7 @@ export function renderOrderSummary() {
                           ${matchingProduct.name}
                         </div>
                         <div class="product-price">
-                          $${formatCurrency(matchingProduct.priceCents)}
+                        ${matchingProduct.getPrice()}
                         </div>
                         <div class="product-quantity">
                           <span>
@@ -177,7 +179,7 @@ export function renderOrderSummary() {
 
     updateCartQty();
     function updateCartQty() {
-        const cartQuantity = calculateCartQuantity() || '';
+        cartQuantity = calculateCartQuantity() || '';
         document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
         localStorage.setItem('cartQuantity', cartQuantity);
     }
