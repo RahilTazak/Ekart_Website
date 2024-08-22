@@ -1,9 +1,10 @@
-import { cart, removeFromCart, calculateCartQuantity, updateQuantity, updateDeliveryOption } from '../../data/cart.js';
+import { cart, removeFromCart, calculateCartQuantity, updateQuantity, updateDeliveryOption, updateDeliveryDays } from '../../data/cart.js';
 import { products, getProduct } from '../../data/products.js';
 import { formatCurrency } from '../utils/money.js';
 import { deliveryOptions, getDeliveryOption, calculateDeliveryDays, isWeekend } from '../../data/deliveryOptions.js';
 import { renderPaymentSummary } from './paymentSummary.js';
 import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
+
 
 
 export let cartQuantity;
@@ -26,7 +27,7 @@ export function renderOrderSummary() {
             `<div class="cart-item-container js-cart-item-container-${matchingProduct.id}">
                     <div class="delivery-date">
                       Delivery Date: <span class = "change-delivery-date js-change-delivery-date-${matchingProduct.id}">
-                      ${dateString}</span>
+                      ${dateString.format('dddd, MMMM D')}</span>
                     </div>
 
                     <div class="cart-item-details-grid">
@@ -87,7 +88,7 @@ export function renderOrderSummary() {
                             name="delivery-option-${matchingProduct.id}">
                           <div>
                             <div class="delivery-option-date .js-delivery-option-date">
-                              ${dateString}
+                              ${dateString.format('dddd, MMMM D') }
                             </div>
                             <div class="delivery-option-price">
                               ${priceString} Shipping
@@ -173,7 +174,6 @@ export function renderOrderSummary() {
             updateDeliveryOption(productId, deliveryOptionId);
             renderOrderSummary();
             renderPaymentSummary();
-
         });
     });
 

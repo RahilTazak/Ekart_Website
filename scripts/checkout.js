@@ -1,10 +1,11 @@
-
 import { renderOrderSummary } from './checkout/orderSummary.js';
-import { totalCents, renderPaymentSummary, ordersClass } from './checkout/paymentSummary.js';
+import { totalCents, renderPaymentSummary } from './checkout/paymentSummary.js';
 import { loadProductsFetch } from '../data/products.js';
 //import '../data/cart-class.js';
 import { cart } from '../data/cart.js';
 import { orders } from '../data/orders.js';
+
+
 
 
 async function loadPage() {
@@ -20,7 +21,6 @@ async function loadPage() {
 }
 
 loadPage().then(() => {
-    console.log(ordersClass);
     console.log(cart);
     console.log(orders);
 

@@ -9,7 +9,7 @@ import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
 
 
 export let totalCents;
-export let ordersClass = JSON.parse(localStorage.getItem('ordersClass')) || [];
+//export let orders = JSON.parse(localStorage.getItem('orders')) || [];
 export function renderPaymentSummary() {
     let productPriceCents = 0;
     let shippingPriceCents = 0;
@@ -79,21 +79,26 @@ export function renderPaymentSummary() {
             });
             const order = await response.json();
             */
-            addOrders(cart);
+            addOrders({
+                orderTime: dayjs().format('D MMMM YYYY'),
+                totalCostCents: totalCents,
+                orderId: Math.floor(Math.random() * 1000000),
+                products: cart
+            });
             console.log(orders);
             //console.log(orders);
             const placeOrder = orders;
             //orders.forEach((orderArray) => {
-            ordersClass.push({
-                orderTime: dayjs().format('MMMM D'),
-                totalCostCents: totalCents,
-                orderId: 123 * 100000,
-                products: cart      // new OrderClass(orderArray)
-            });
+            //orders.push({
+            //    orderTime: dayjs().format('MMMM D'),
+             //   totalCostCents: totalCents,
+               // orderId: Math.floor(Math.random() * 1000000),
+               // products: cart      // new OrderClass(orderArray)
            // });
-            localStorage.setItem('ordersClass', JSON.stringify(ordersClass));
+           // });
+            localStorage.setItem('orders', JSON.stringify(orders));
             console.log(cart);
-            console.log(ordersClass);
+            console.log(orders);
 
         } catch (error) {
             console.log('Unexpected error. try again later.')

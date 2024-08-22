@@ -4,12 +4,12 @@
     "\\data",
     "\\scripts",
     "\\scripts\\checkout",
+    "\\scripts\\utils",
     "\\styles",
-    "\\styles\\pages",
     "\\styles\\pages\\checkout",
     "\\styles\\shared",
     "\\test"
   ],
-  "SelectedNode": "\\data\\cart.js",
+  "SelectedNode": "\\orders.html",
   "PreviewInSolutionExplorer": false
 }

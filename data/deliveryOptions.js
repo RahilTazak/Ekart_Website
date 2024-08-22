@@ -46,6 +46,6 @@ export function calculateDeliveryDays(deliveryOption) {
             remainingDays--;
         }
     }
-    const dateString = deliveryDate.format('dddd, MMMM D');
+    const dateString = deliveryDate;
     return dateString;
 }
