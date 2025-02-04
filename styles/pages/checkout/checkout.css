@@ -61,15 +61,14 @@
 }
 
 .checkout-grid {
-  display: grid;
-  /* Here, 1fr means the first column will take
+    display: grid;
+    /* Here, 1fr means the first column will take
      up the remaining space in the grid. */
-  grid-template-columns: 1fr 350px;
-  column-gap: 12px;
-
-  /* Use align-items: start; to prevent the elements
-     in the grid from stretching vertically. */
-  align-items: start;
+    grid-template-columns: 1fr 350px;
+    column-gap: 12px;
+    /* Use align-items: start; to prevent the elements
+     in the grid from stretching vertically.*/
+    align-items: start;
 }
 
 @media (max-width: 1000px) {
@@ -214,7 +213,6 @@
      determined by the elements inside the column (auto).
      The 1st column will take up the remaining space. */
   grid-template-columns: 1fr auto;
-
   font-size: 15px;
   margin-bottom: 9px;
 }

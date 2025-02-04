@@ -87,15 +87,14 @@ export function renderOrderSummary() {
                             class="delivery-option-input"
                             name="delivery-option-${matchingProduct.id}">
                           <div>
-                            <div class="delivery-option-date .js-delivery-option-date">
+                            <div class="delivery-option-date js-delivery-option-date">
                               ${dateString.format('dddd, MMMM D') }
                             </div>
                             <div class="delivery-option-price">
                               ${priceString} Shipping
                             </div>
                           </div>
-                        </div>
-            `;
+                        </div>`;
         });
         return html;
     }

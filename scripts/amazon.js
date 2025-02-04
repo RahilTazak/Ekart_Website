@@ -73,7 +73,7 @@ function loadProductsGrid() {
 
                 <div class="product-spacer"></div>
 
-                <div class="added-to-cart">
+                <div class="added-to-cart js-added-to-cart-${product.id}">
                     <img src="images/icons/checkmark.png">
                     Added
                 </div>
@@ -96,7 +96,6 @@ function loadProductsGrid() {
         document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
         localStorage.setItem('cartQuantity', cartQuantity);
     }
-
 
     document.querySelectorAll('.js-add-to-cart-button').forEach((button) => {
         button.addEventListener('click', () => {

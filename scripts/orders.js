@@ -33,6 +33,7 @@ async function renderOrders() {
              </div>
            </div>
 
+
            <div class="order-header-right-section">
             <div class="order-header-label">Order ID:</div>
              <div>${order.orderId}</div>
