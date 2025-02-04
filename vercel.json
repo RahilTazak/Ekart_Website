@@ -1,7 +1,16 @@
 {
-  "rewrites": [
+  "version": 2,
+  "public": true,
+  "builds": [
     {
-      "source": "/(.*)", "destination": "/index.html"
+      "src": "/scripts/(.*)",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/amazon.html"
     }
   ]
 }
