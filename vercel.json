@@ -1,16 +1,7 @@
 {
-  "version": 2,
-  "public": true,
-  "builds": [
+  "rewrites": [
     {
-      "src": "/amazon.js",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/amazon.html"
+      "source": "/(.*)", "destination": "/amazon.html"
     }
   ]
 }
