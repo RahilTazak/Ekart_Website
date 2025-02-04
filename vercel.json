@@ -3,7 +3,7 @@
   "public": true,
   "builds": [
     {
-      "src": "/scripts/(.*)",
+      "src": "/scripts/amazon.js",
       "use": "@vercel/static"
     }
   ],
